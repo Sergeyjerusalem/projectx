@@ -1,0 +1,18 @@
+{
+  "name": "lessonfive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/config/runner.js",
+    "allure": "node allure-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.13.8",
+    "express": "^4.17.1",
+    "testcafe": "^1.17.1",
+    "testcafe-reporter-allure": "^1.0.5"
+  }
+}
